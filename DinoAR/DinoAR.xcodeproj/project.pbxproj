@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C00EC792BECBEC000A5D0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00EC782BECBEC000A5D0FE /* AppDelegate.swift */; };
+		9C00EC7B2BECBEC000A5D0FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00EC7A2BECBEC000A5D0FE /* ContentView.swift */; };
+		9C00EC7D2BECBEC800A5D0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C00EC7C2BECBEC800A5D0FE /* Assets.xcassets */; };
+		9C00EC802BECBEC800A5D0FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C00EC7F2BECBEC800A5D0FE /* Preview Assets.xcassets */; };
+		9C00EC8A2BECBEC900A5D0FE /* DinoARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00EC892BECBEC900A5D0FE /* DinoARTests.swift */; };
+		9C00EC942BECBEC900A5D0FE /* DinoARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00EC932BECBEC900A5D0FE /* DinoARUITests.swift */; };
+		9C00EC962BECBEC900A5D0FE /* DinoARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00EC952BECBEC900A5D0FE /* DinoARUITestsLaunchTests.swift */; };
+		9C2CF4452BEF89C400F949DE /* dinosaur_animation.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9C2CF4442BEF89C400F949DE /* dinosaur_animation.usdz */; };
+		9C2CF4472BEF946600F949DE /* Pteradactal.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9C2CF4462BEF946600F949DE /* Pteradactal.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C00EC862BECBEC900A5D0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C00EC6D2BECBEC000A5D0FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C00EC742BECBEC000A5D0FE;
+			remoteInfo = DinoAR;
+		};
+		9C00EC902BECBEC900A5D0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C00EC6D2BECBEC000A5D0FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C00EC742BECBEC000A5D0FE;
+			remoteInfo = DinoAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C00EC752BECBEC000A5D0FE /* DinoAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinoAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C00EC782BECBEC000A5D0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C00EC7A2BECBEC000A5D0FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C00EC7C2BECBEC800A5D0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C00EC7F2BECBEC800A5D0FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C00EC852BECBEC900A5D0FE /* DinoARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinoARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C00EC892BECBEC900A5D0FE /* DinoARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoARTests.swift; sourceTree = "<group>"; };
+		9C00EC8F2BECBEC900A5D0FE /* DinoARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinoARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C00EC932BECBEC900A5D0FE /* DinoARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoARUITests.swift; sourceTree = "<group>"; };
+		9C00EC952BECBEC900A5D0FE /* DinoARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C2CF4442BEF89C400F949DE /* dinosaur_animation.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = dinosaur_animation.usdz; sourceTree = "<group>"; };
+		9C2CF4462BEF946600F949DE /* Pteradactal.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pteradactal.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C00EC722BECBEC000A5D0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C00EC822BECBEC900A5D0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C00EC8C2BECBEC900A5D0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C00EC6C2BECBEC000A5D0FE = {
+			isa = PBXGroup;
+			children = (
+				9C00EC772BECBEC000A5D0FE /* DinoAR */,
+				9C00EC882BECBEC900A5D0FE /* DinoARTests */,
+				9C00EC922BECBEC900A5D0FE /* DinoARUITests */,
+				9C00EC762BECBEC000A5D0FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C00EC762BECBEC000A5D0FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C00EC752BECBEC000A5D0FE /* DinoAR.app */,
+				9C00EC852BECBEC900A5D0FE /* DinoARTests.xctest */,
+				9C00EC8F2BECBEC900A5D0FE /* DinoARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C00EC772BECBEC000A5D0FE /* DinoAR */ = {
+			isa = PBXGroup;
+			children = (
+				9C2CF4432BEF882600F949DE /* Models */,
+				9C00EC782BECBEC000A5D0FE /* AppDelegate.swift */,
+				9C00EC7A2BECBEC000A5D0FE /* ContentView.swift */,
+				9C00EC7C2BECBEC800A5D0FE /* Assets.xcassets */,
+				9C00EC7E2BECBEC800A5D0FE /* Preview Content */,
+			);
+			path = DinoAR;
+			sourceTree = "<group>";
+		};
+		9C00EC7E2BECBEC800A5D0FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C00EC7F2BECBEC800A5D0FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C00EC882BECBEC900A5D0FE /* DinoARTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C00EC892BECBEC900A5D0FE /* DinoARTests.swift */,
+			);
+			path = DinoARTests;
+			sourceTree = "<group>";
+		};
+		9C00EC922BECBEC900A5D0FE /* DinoARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C00EC932BECBEC900A5D0FE /* DinoARUITests.swift */,
+				9C00EC952BECBEC900A5D0FE /* DinoARUITestsLaunchTests.swift */,
+			);
+			path = DinoARUITests;
+			sourceTree = "<group>";
+		};
+		9C2CF4432BEF882600F949DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C2CF4462BEF946600F949DE /* Pteradactal.usdz */,
+				9C2CF4442BEF89C400F949DE /* dinosaur_animation.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C00EC742BECBEC000A5D0FE /* DinoAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C00EC992BECBEC900A5D0FE /* Build configuration list for PBXNativeTarget "DinoAR" */;
+			buildPhases = (
+				9C00EC712BECBEC000A5D0FE /* Sources */,
+				9C00EC722BECBEC000A5D0FE /* Frameworks */,
+				9C00EC732BECBEC000A5D0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinoAR;
+			productName = DinoAR;
+			productReference = 9C00EC752BECBEC000A5D0FE /* DinoAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C00EC842BECBEC900A5D0FE /* DinoARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C00EC9C2BECBEC900A5D0FE /* Build configuration list for PBXNativeTarget "DinoARTests" */;
+			buildPhases = (
+				9C00EC812BECBEC900A5D0FE /* Sources */,
+				9C00EC822BECBEC900A5D0FE /* Frameworks */,
+				9C00EC832BECBEC900A5D0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C00EC872BECBEC900A5D0FE /* PBXTargetDependency */,
+			);
+			name = DinoARTests;
+			productName = DinoARTests;
+			productReference = 9C00EC852BECBEC900A5D0FE /* DinoARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C00EC8E2BECBEC900A5D0FE /* DinoARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C00EC9F2BECBEC900A5D0FE /* Build configuration list for PBXNativeTarget "DinoARUITests" */;
+			buildPhases = (
+				9C00EC8B2BECBEC900A5D0FE /* Sources */,
+				9C00EC8C2BECBEC900A5D0FE /* Frameworks */,
+				9C00EC8D2BECBEC900A5D0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C00EC912BECBEC900A5D0FE /* PBXTargetDependency */,
+			);
+			name = DinoARUITests;
+			productName = DinoARUITests;
+			productReference = 9C00EC8F2BECBEC900A5D0FE /* DinoARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C00EC6D2BECBEC000A5D0FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					9C00EC742BECBEC000A5D0FE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					9C00EC842BECBEC900A5D0FE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 9C00EC742BECBEC000A5D0FE;
+					};
+					9C00EC8E2BECBEC900A5D0FE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 9C00EC742BECBEC000A5D0FE;
+					};
+				};
+			};
+			buildConfigurationList = 9C00EC702BECBEC000A5D0FE /* Build configuration list for PBXProject "DinoAR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C00EC6C2BECBEC000A5D0FE;
+			productRefGroup = 9C00EC762BECBEC000A5D0FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C00EC742BECBEC000A5D0FE /* DinoAR */,
+				9C00EC842BECBEC900A5D0FE /* DinoARTests */,
+				9C00EC8E2BECBEC900A5D0FE /* DinoARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C00EC732BECBEC000A5D0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C00EC802BECBEC800A5D0FE /* Preview Assets.xcassets in Resources */,
+				9C00EC7D2BECBEC800A5D0FE /* Assets.xcassets in Resources */,
+				9C2CF4472BEF946600F949DE /* Pteradactal.usdz in Resources */,
+				9C2CF4452BEF89C400F949DE /* dinosaur_animation.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C00EC832BECBEC900A5D0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C00EC8D2BECBEC900A5D0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C00EC712BECBEC000A5D0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C00EC7B2BECBEC000A5D0FE /* ContentView.swift in Sources */,
+				9C00EC792BECBEC000A5D0FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C00EC812BECBEC900A5D0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C00EC8A2BECBEC900A5D0FE /* DinoARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C00EC8B2BECBEC900A5D0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C00EC942BECBEC900A5D0FE /* DinoARUITests.swift in Sources */,
+				9C00EC962BECBEC900A5D0FE /* DinoARUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C00EC872BECBEC900A5D0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C00EC742BECBEC000A5D0FE /* DinoAR */;
+			targetProxy = 9C00EC862BECBEC900A5D0FE /* PBXContainerItemProxy */;
+		};
+		9C00EC912BECBEC900A5D0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C00EC742BECBEC000A5D0FE /* DinoAR */;
+			targetProxy = 9C00EC902BECBEC900A5D0FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C00EC972BECBEC900A5D0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C00EC982BECBEC900A5D0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C00EC9A2BECBEC900A5D0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinoAR/Preview Content\"";
+				DEVELOPMENT_TEAM = XSD44FJ89N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CTSE.DinoAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C00EC9B2BECBEC900A5D0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinoAR/Preview Content\"";
+				DEVELOPMENT_TEAM = XSD44FJ89N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CTSE.DinoAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C00EC9D2BECBEC900A5D0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CTSE.DinoARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinoAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DinoAR";
+			};
+			name = Debug;
+		};
+		9C00EC9E2BECBEC900A5D0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CTSE.DinoARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinoAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DinoAR";
+			};
+			name = Release;
+		};
+		9C00ECA02BECBEC900A5D0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CTSE.DinoARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DinoAR;
+			};
+			name = Debug;
+		};
+		9C00ECA12BECBEC900A5D0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CTSE.DinoARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DinoAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C00EC702BECBEC000A5D0FE /* Build configuration list for PBXProject "DinoAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C00EC972BECBEC900A5D0FE /* Debug */,
+				9C00EC982BECBEC900A5D0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C00EC992BECBEC900A5D0FE /* Build configuration list for PBXNativeTarget "DinoAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C00EC9A2BECBEC900A5D0FE /* Debug */,
+				9C00EC9B2BECBEC900A5D0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C00EC9C2BECBEC900A5D0FE /* Build configuration list for PBXNativeTarget "DinoARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C00EC9D2BECBEC900A5D0FE /* Debug */,
+				9C00EC9E2BECBEC900A5D0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C00EC9F2BECBEC900A5D0FE /* Build configuration list for PBXNativeTarget "DinoARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C00ECA02BECBEC900A5D0FE /* Debug */,
+				9C00ECA12BECBEC900A5D0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C00EC6D2BECBEC000A5D0FE /* Project object */;
+}
