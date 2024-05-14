@@ -16,6 +16,10 @@
 		9C00EC962BECBEC900A5D0FE /* DinoARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00EC952BECBEC900A5D0FE /* DinoARUITestsLaunchTests.swift */; };
 		9C2CF4452BEF89C400F949DE /* dinosaur_animation.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9C2CF4442BEF89C400F949DE /* dinosaur_animation.usdz */; };
 		9C2CF4472BEF946600F949DE /* Pteradactal.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9C2CF4462BEF946600F949DE /* Pteradactal.usdz */; };
+		9C6116082BF103C000CB5C96 /* Dinosaur.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9C6116072BF103C000CB5C96 /* Dinosaur.usdz */; };
+		9C61160A2BF107BB00CB5C96 /* background_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C6116092BF107BB00CB5C96 /* background_sound.mp3 */; };
+		9C61160D2BF1323800CB5C96 /* oaktrees.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9C61160B2BF1323700CB5C96 /* oaktrees.usdz */; };
+		9C61160E2BF1323800CB5C96 /* rock.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9C61160C2BF1323700CB5C96 /* rock.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		9C00EC952BECBEC900A5D0FE /* DinoARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoARUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9C2CF4442BEF89C400F949DE /* dinosaur_animation.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = dinosaur_animation.usdz; sourceTree = "<group>"; };
 		9C2CF4462BEF946600F949DE /* Pteradactal.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pteradactal.usdz; sourceTree = "<group>"; };
+		9C6116072BF103C000CB5C96 /* Dinosaur.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Dinosaur.usdz; sourceTree = "<group>"; };
+		9C6116092BF107BB00CB5C96 /* background_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background_sound.mp3; sourceTree = "<group>"; };
+		9C61160B2BF1323700CB5C96 /* oaktrees.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = oaktrees.usdz; sourceTree = "<group>"; };
+		9C61160C2BF1323700CB5C96 /* rock.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = rock.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,7 @@
 				9C00EC782BECBEC000A5D0FE /* AppDelegate.swift */,
 				9C00EC7A2BECBEC000A5D0FE /* ContentView.swift */,
 				9C00EC7C2BECBEC800A5D0FE /* Assets.xcassets */,
+				9C6116092BF107BB00CB5C96 /* background_sound.mp3 */,
 				9C00EC7E2BECBEC800A5D0FE /* Preview Content */,
 			);
 			path = DinoAR;
@@ -135,6 +144,9 @@
 		9C2CF4432BEF882600F949DE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9C61160B2BF1323700CB5C96 /* oaktrees.usdz */,
+				9C61160C2BF1323700CB5C96 /* rock.usdz */,
+				9C6116072BF103C000CB5C96 /* Dinosaur.usdz */,
 				9C2CF4462BEF946600F949DE /* Pteradactal.usdz */,
 				9C2CF4442BEF89C400F949DE /* dinosaur_animation.usdz */,
 			);
@@ -245,9 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C61160D2BF1323800CB5C96 /* oaktrees.usdz in Resources */,
 				9C00EC802BECBEC800A5D0FE /* Preview Assets.xcassets in Resources */,
 				9C00EC7D2BECBEC800A5D0FE /* Assets.xcassets in Resources */,
 				9C2CF4472BEF946600F949DE /* Pteradactal.usdz in Resources */,
+				9C61160E2BF1323800CB5C96 /* rock.usdz in Resources */,
+				9C6116082BF103C000CB5C96 /* Dinosaur.usdz in Resources */,
+				9C61160A2BF107BB00CB5C96 /* background_sound.mp3 in Resources */,
 				9C2CF4452BEF89C400F949DE /* dinosaur_animation.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
