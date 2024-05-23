@@ -6,6 +6,15 @@
   "resources" : [
     {
       "filename" : "marker.arreferenceimage"
+    },
+    {
+      "filename" : "marker1.arreferenceimage"
+    },
+    {
+      "filename" : "marker2.arreferenceimage"
+    },
+    {
+      "filename" : "marker3.arreferenceimage"
     }
   ]
 }
