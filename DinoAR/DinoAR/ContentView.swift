@@ -68,11 +68,11 @@ struct ARViewContainer: UIViewRepresentable {
                 if let imageAnchor = anchor as? ARImageAnchor {
                     print("Marker detected: \(imageAnchor.referenceImage.name ?? "unknown")")
                     // Load and position dinosaurs relative to the detected image marker
-                    self.loadAndPositionDinosaur(named: "dinosaur_animation.usdz", at: [0.0, 0.0, 0.0], scale: SIMD3<Float>(0.0005, 0.0005, 0.0005), relativeTo: imageAnchor, in: arView)
-                    self.loadAndPositionDinosaur(named: "Pteradactal.usdz", at: [0.2, 0.0, 0.0], scale: SIMD3<Float>(0.0005, 0.0005, 0.0005), relativeTo: imageAnchor, in: arView)
-                    self.loadAndPositionDinosaur(named: "Dinosaur.usdz", at: [-0.2, 0.0, 0.0], scale: SIMD3<Float>(0.0005, 0.0005, 0.0005), relativeTo: imageAnchor, in: arView)
-                    self.loadAndPositionDinosaur(named: "oaktrees.usdz", at: [0.4, 0.0, 0.0], scale: SIMD3<Float>(0.0005, 0.0005, 0.0005), relativeTo: imageAnchor, in: arView)
-                    self.loadAndPositionDinosaur(named: "rock.usdz", at: [-0.4, 0.0, 0.0], scale: SIMD3<Float>(0.0005, 0.0005, 0.0005), relativeTo: imageAnchor, in: arView)
+                    self.loadAndPositionDinosaur(named: "dinosaur_animation.usdz", at: [0.0, -0.2, -2], scale: SIMD3<Float>(0.005, 0.005, 0.005), relativeTo: imageAnchor, in: arView)
+                    self.loadAndPositionDinosaur(named: "Pteradactal.usdz", at: [1, 1, -2], scale: SIMD3<Float>(0.005, 0.005, 0.005), relativeTo: imageAnchor, in: arView)
+                    self.loadAndPositionDinosaur(named: "Dinosaur.usdz", at: [-2.5, -0.2, -2], scale: SIMD3<Float>(0.005, 0.005, 0.005), relativeTo: imageAnchor, in: arView)
+                    self.loadAndPositionDinosaur(named: "oaktrees.usdz", at: [1, -0.2, -1], scale: SIMD3<Float>(0.005, 0.005, 0.005), relativeTo: imageAnchor, in: arView)
+                    self.loadAndPositionDinosaur(named: "rock.usdz", at: [-6, -0.2, -4], scale: SIMD3<Float>(0.005, 0.005, 0.005), relativeTo: imageAnchor, in: arView)
                     
                     // Set the flag to true to indicate that the models are displayed
                     isModelDisplayed = true
