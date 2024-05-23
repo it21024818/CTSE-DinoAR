@@ -1,7 +1,8 @@
 # CTSE-DinoAR
 
 DinoAR is an augmented reality (AR) application that brings dinosaurs to life in your surroundings. Using ARKit, RealityKit, and SwiftUI, DinoAR detects specific image markers and overlays 3D dinosaur models onto them, creating an immersive and interactive experience for users.
-Demonstration of the Working Product:
+
+# Demonstration of the Working Product:
 
 To see DinoAR in action, simply point your device's camera at one of the supported image markers, and watch as the dinosaurs come to life in your environment. The app recognizes the markers and places realistic 3D models of dinosaurs on top of them, allowing you to explore and interact with them as if they were really there.
 
