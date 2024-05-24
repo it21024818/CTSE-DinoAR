@@ -6,7 +6,7 @@ DinoAR is an augmented reality (AR) application that brings dinosaurs to life in
 
 To see DinoAR in action, simply point your device's camera at one of the supported image markers, and watch as the dinosaurs come to life in your environment. The app recognizes the markers and places realistic 3D models of dinosaurs on top of them, allowing you to explore and interact with them as if they were really there.
 
-Demostration video and .ipa file: IT21024818 - DinoAR
+Demostration video and .ipa file: [IT21024818 - DinoAR](https://mysliit-my.sharepoint.com/:f:/g/personal/it21024818_my_sliit_lk/Es5OU2VKe25OsK_WBuuOk6QBhJxPESWhLtiOGEb4UCCcdA?e=11Obxs)
 
 ![image](https://github.com/it21024818/CTSE-DinoAR/assets/87381428/8f9e1229-8851-4721-947d-2e232500174e)
 ![image](https://github.com/it21024818/CTSE-DinoAR/assets/87381428/5dee1666-f531-4ee2-9742-02c4dcb1d444)
